@@ -1,7 +1,7 @@
 /* 
     Baptiste-Reaves Wedding
-    Created on : Jan 29, 2014, 8:48:13 PM
-    Author     : Sam Reaves & Brittany Baptiste
+    Written by Sam Reaves & Brittany Baptiste
+    January 29th, 2014
 */
 
 .spacer {
@@ -9,4 +9,24 @@
     height: 20px;
     width: auto;
     margin-bottom:5px;
+}
+
+
+.navbar{
+    background-color: #FFF;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+}
+
+.icon-bar-workaround {
+    background-color: #000 !important;
+}
+
+.navbar-collapse-workaround {
+    background-color: #000 !important;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #000;
 }
