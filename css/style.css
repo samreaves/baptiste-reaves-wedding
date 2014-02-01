@@ -4,9 +4,14 @@
     January 29th, 2014
 */
 
+body {
+    font-size: 16px;
+}
+
+
 @font-face {
     font-family: lavanderia;
-    src: url(./fonts/Lavanderia/LavanderiaSturdy.otf);
+    src: url(../fonts/Lavanderia/LavanderiaSturdy.otf);
 }
 
 .spacer {
@@ -16,12 +21,17 @@
     margin-bottom:5px;
 }
 
-
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #FFF;
+    background-color: grey !important;
+}
 .navbar{
     background-color: #FFF;
+    border-bottom-color: grey;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #000;
+    color: #FFF;
+    background-color: grey;
 }
 
 .icon-bar-workaround {
@@ -37,28 +47,8 @@
     cursor: default;
 }
 
-#ourStory {
-    padding-top: 8rem;
-}
-
-#bridalParty {
-    padding-top: 8rem;
-}
-
-#photos {
-    padding-top: 8rem;
-}
-
-#directions {
-    padding-top: 8rem;
-}
-
-#rsvp {
-    padding-top: 8rem;
-}
-
-#registry {
-    padding-top: 8rem;
+.topPadding {
+    padding-top: 3em;
 }
 
 .center {
@@ -67,7 +57,7 @@
 
 .header {
     font-family: lavanderia;
-    font-size: 8rem;
+    font-size: 5em;
     color: #0051ff;
     font-weight: bold;
 }
