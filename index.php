@@ -112,16 +112,16 @@
         <div id="photos" class="container topPadding">
             <h2 class="center header">Photos</h2>
             <ul class="rslides">
-                <?php
-                for ($i = 1; $i <= 120; $i++) {
-                    if ($i < 10) {
-                        echo "<li><img src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
-                    } else if ($i < 100) {
-                        echo "<li><img src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
-                    } else {
-                        echo "<li><img src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
-                    }
-                }
+                <?php /*
+                  for ($i = 1; $i <= 120; $i++) {
+                  if ($i < 10) {
+                  echo "<li><img src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
+                  } else if ($i < 100) {
+                  echo "<li><img src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
+                  } else {
+                  echo "<li><img src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
+                  }
+                  } */
                 ?>
             </ul>        
         </div>
@@ -191,6 +191,12 @@
                     }, // Function: Before callback
                     after: function() {
                     }     // Function: After callback
+                });
+                $('a').click(function() {
+                    $('html, body').animate({
+                        scrollTop: $($.attr(this, 'href')).offset().top
+                    }, 500);
+                    return false;
                 });
             });
         </script>
