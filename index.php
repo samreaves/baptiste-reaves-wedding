@@ -12,7 +12,6 @@
         <link href="./css/bootstrap.min.css" rel="stylesheet">
         <link href="./js/gallery/responsiveslides.css" rel="stylesheet" type="text/css"/>
         <link href="./css/style.css" rel="stylesheet">
-
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -112,16 +111,16 @@
         <div id="photos" class="container topPadding">
             <h2 class="center header">Photos</h2>
             <ul class="rslides">
-                <?php /*
+                <?php 
                   for ($i = 1; $i <= 120; $i++) {
                   if ($i < 10) {
-                  echo "<li><img src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
+                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
                   } else if ($i < 100) {
-                  echo "<li><img src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
+                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
                   } else {
-                  echo "<li><img src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
+                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
                   }
-                  } */
+                  } 
                 ?>
             </ul>        
         </div>
@@ -169,6 +168,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="./js/bootstrap.min.js"></script>
         <script src="./js/wedding.js"></script>
+        <script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>
         <script src="./js/gallery/responsiveslides.min.js"></script>
         <script type="text/javascript">
             $(function() {
@@ -198,6 +198,7 @@
                     }, 500);
                     return false;
                 });
+                $("img.lazy").lazyload();
             });
         </script>
     </body>
