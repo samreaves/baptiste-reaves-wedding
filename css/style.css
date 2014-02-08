@@ -30,8 +30,8 @@ body {
     border-bottom-color: grey;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #FFF;
-    background-color: grey;
+    color: #000;
+    //background-color: grey;
 }
 
 .icon-bar-workaround {

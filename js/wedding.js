@@ -5,6 +5,8 @@
  */
 
 $(function() {
+
+    // Initialize responsive slides
     $(".rslides").responsiveSlides({
         auto: true, // Boolean: Animate automatically, true or false
         speed: 500, // Integer: Speed of the transition, in milliseconds
@@ -25,17 +27,31 @@ $(function() {
         after: function() {
         }     // Function: After callback
     });
-    $('a').click(function() {
+
+    $("a").click(function(e) {
+        event.preventDefault();
+    });
+
+    // On nav click, reset active tab and smooth scroll to position on site.
+    $click = 0;
+    $('.navbar-nav li a').click(function() {
+        $click = 1;
+        $(this).parent().siblings().removeClass("active");
+        $(this).parent().toggleClass("active");
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
-        return false;
+        }, 500).then(setClickTo0());
     });
+
+    //Initialize lazyload
     //$("img.lazy").lazyload();
+
+    // On hover of navbar toggle, toggle style workaround
     $(".navbar-toggle").hover(function() {
         $(this).children().toggleClass("icon-bar-workaround");
     });
-    //$(".navbar-toggle").click(function() {
+
+    //On navbar toggle click, move the site down below the responsive nav dropdown
     var navClick = 0;
     $(".navbar-toggle").click(function() {
         if (navClick === 0) {
@@ -49,8 +65,7 @@ $(function() {
                 marginTop: '0'
             }, 280);
             navClick = 0;
-        };
+        }
+        ;
     });
 });
-
-

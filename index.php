@@ -111,16 +111,16 @@
         <div id="photos" class="container topPadding">
             <h2 class="center header">Photos</h2>
             <ul class="rslides">
-                <?php/*
-                for ($i = 1; $i <= 120; $i++) {
-                    if ($i < 10) {
-                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
-                    } else if ($i < 100) {
-                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
-                    } else {
-                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
-                    }
-                }*/
+                <?php /*
+                  for ($i = 1; $i <= 120; $i++) {
+                  if ($i < 10) {
+                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
+                  } else if ($i < 100) {
+                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
+                  } else {
+                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
+                  }
+                  } */
                 ?>
             </ul>        
         </div>
@@ -129,14 +129,25 @@
             <div class="row">
                 <div class="col-xs-12">
                     <h4>Our Venue</h4>
+                    <center><iframe src="https://mapsengine.google.com/map/embed?mid=zVnRrsBSuH_c.kz6hePyLmMwc" width="480" height="480"></iframe></center>
+                    <!--
+                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?t=h&amp;sll=33.7748275,-84.2963123&amp;sspn=0.0016637,0.0026687&amp;q=Dekalb+History+Center+Museum&amp;cid=0x63f5425ba2131ec0&amp;ie=UTF8&amp;hq=Dekalb+History+Center+Museum&amp;hnear=&amp;ll=33.774828,-84.296312&amp;spn=0.006295,0.006295&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?t=h&amp;sll=33.7748275,-84.2963123&amp;sspn=0.0016637,0.0026687&amp;q=Dekalb+History+Center+Museum&amp;cid=0x63f5425ba2131ec0&amp;ie=UTF8&amp;hq=Dekalb+History+Center+Museum&amp;hnear=&amp;ll=33.774828,-84.296312&amp;spn=0.006295,0.006295&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                    -->
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
                     <h4>Courtyard Marriot</h4>
+
+                    <!--
+                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=courtyard+marriott+near+Decatur,+GA&amp;aq=0&amp;oq=courtyard+marriott+de&amp;sll=33.775202,-84.296317&amp;sspn=0.001958,0.00284&amp;t=h&amp;ie=UTF8&amp;hq=courtyard+marriott&amp;hnear=Decatur,+DeKalb,+Georgia&amp;fll=33.776704,-84.296583&amp;fspn=0.002135,0.00284&amp;st=101124652325230410087&amp;rq=1&amp;ev=zi&amp;split=1&amp;ll=33.861906,-84.265015&amp;spn=0.002135,0.00284&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=courtyard+marriott+near+Decatur,+GA&amp;aq=0&amp;oq=courtyard+marriott+de&amp;sll=33.775202,-84.296317&amp;sspn=0.001958,0.00284&amp;t=h&amp;ie=UTF8&amp;hq=courtyard+marriott&amp;hnear=Decatur,+DeKalb,+Georgia&amp;fll=33.776704,-84.296583&amp;fspn=0.002135,0.00284&amp;st=101124652325230410087&amp;rq=1&amp;ev=zi&amp;split=1&amp;ll=33.861906,-84.265015&amp;spn=0.002135,0.00284" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                    -->
                 </div>
                 <div class="col-sm-6">
                     <h4>W Midtown</h4>
+                    <!--
+                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=W+Atlanta+-+Midtown,+14th+Street+Northeast,+Atlanta,+GA&amp;aq=0&amp;oq=w+midtown&amp;sll=33.776704,-84.296583&amp;sspn=0.002135,0.00284&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=33.786952,-84.381661&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=W+Atlanta+-+Midtown,+14th+Street+Northeast,+Atlanta,+GA&amp;aq=0&amp;oq=w+midtown&amp;sll=33.776704,-84.296583&amp;sspn=0.002135,0.00284&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=33.786952,-84.381661&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                    -->
                 </div>
             </div>
             <div class="row">
@@ -165,10 +176,116 @@
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src='./js/waypoints.min.js'
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="./js/bootstrap.min.js"></script>
-        <script src="./js/wedding.js"></script>
-        <!-- <script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script> -->
-        <script src="./js/gallery/responsiveslides.min.js"></script>
-    </body>
-</html>
+            <script>
+                function setClickTo0() {
+                    setTimeout(function() {
+                        $click = 0;
+                    }, 500);
+                }
+            </script>
+            <script src="./js/wedding.js"></script>
+            <!--<script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>-->
+            <script src="./js/gallery/responsiveslides.min.js"></script>
+            <script>
+                $(document).ready(function() {
+                    // Initialize positions of page elements
+                    /*$ourStory = $("#ourStory").position().top;
+                     $bridalParty = $("#bridalParty").position().top;
+                     $photos = $("#photos").position().top;
+                     $directions = $("#directions").position().top;
+                     $rsvp = $("#rsvp").position().top;
+                     $registry = $("#registry").position().top;
+                     console.log("does this work either?");*/
+
+                    // On scroll, check for scrollTop position. If matches with position of element, change active tab.
+                    $("#home").waypoint(function() {
+                        if ($click === 0) {
+                            $(".navbar-nav").children().removeClass("active");
+                            $(".navbar-nav li:nth-child(1)").toggleClass("active");
+                        }
+                    });
+                    $("#ourStory").waypoint(function() {
+                        if ($click === 0) {
+                            $(".navbar-nav").children().removeClass("active");
+                            $(".navbar-nav li:nth-child(2)").toggleClass("active");
+                        }
+                    });
+                    $("#bridalParty").waypoint(function() {
+                        if ($click === 0) {
+                            $(".navbar-nav").children().removeClass("active");
+                            $(".navbar-nav li:nth-child(3)").toggleClass("active");
+                        }
+                    });
+                    $("#photos").waypoint(function() {
+                        if ($click === 0) {
+                            $(".navbar-nav").children().removeClass("active");
+                            $(".navbar-nav li:nth-child(4)").toggleClass("active");
+                        }
+                    });
+                    $("#directions").waypoint(function() {
+                        if ($click === 0) {
+                            $(".navbar-nav").children().removeClass("active");
+                            $(".navbar-nav li:nth-child(5)").toggleClass("active");
+                        }
+                    });
+                    $("#rsvp").waypoint(function() {
+                        $(".navbar-nav").children().removeClass("active");
+                        $(".navbar-nav li:nth-child(6)").toggleClass("active");
+                    });
+                    $("#registry").waypoint(function() {
+                        if ($click === 0) {
+                            $(".navbar-nav").children().removeClass("active");
+                            $(".navbar-nav li:nth-child(7)").toggleClass("active");
+                        }
+                    });
+
+                    /*$(window).scroll(function() {
+                     
+                     var offset = $("body").scrollTop();
+                     console.log(offset);
+                     switch (offset)
+                     {
+                     case 0:
+                     offset < $ourStory;
+                     $(".navbar-nav").children().removeClass("active");
+                     $(".navbar-nav li:nth-child(1)").toggleClass("active");
+                     break;
+                     case 1:
+                     offset >= $ourStory && x < $bridalParty;
+                     $(".navbar-nav").children().removeClass("active");
+                     $(".navbar-nav li:nth-child(2)").toggleClass("active");
+                     break;
+                     case 2:
+                     offset >= $bridalParty && x < $photos;
+                     $(".navbar-nav").children().removeClass("active");
+                     $(".navbar-nav li:nth-child(3)").toggleClass("active");
+                     break;
+                     case 3:
+                     offset >= $photos && x < $directions;
+                     $(".navbar-nav").children().removeClass("active");
+                     $(".navbar-nav li:nth-child(4)").toggleClass("active");
+                     break;
+                     case 4:
+                     offset >= $directions && x < $rsvp;
+                     $(".navbar-nav").children().removeClass("active");
+                     $(".navbar-nav li:nth-child(5)").toggleClass("active");
+                     break;
+                     case 5:
+                     offset >= $rsvp && x < $registry;
+                     $(".navbar-nav").children().removeClass("active");
+                     $(".navbar-nav li:nth-child(6)").toggleClass("active");
+                     break;
+                     case 6:
+                     offset >= $registry;
+                     $(".navbar-nav").children().removeClass("active");
+                     $(".navbar-nav li:nth-child(7)").toggleClass("active");
+                     break;
+                     }
+                     });*/
+                });
+            </script>
+        </body>
+    </html>
