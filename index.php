@@ -56,7 +56,7 @@
         </nav>
         <!-- end navigation -->
         <div class="spacer"></div>
-        <img src="./images/steps4.png" alt="Brittany Baptiste & Sam Reaves" class="img-responsive"/>
+        <img src="./images/steps4.png" alt="Brittany Baptiste & Sam Reaves" id="headPicture" class="img-responsive"/>
         <div id="ourStory" class="container topPadding">
             <h2 class="center header">Our Story</h2>
             <div class="row">
@@ -111,16 +111,16 @@
         <div id="photos" class="container topPadding">
             <h2 class="center header">Photos</h2>
             <ul class="rslides">
-                <?php 
-                  for ($i = 1; $i <= 120; $i++) {
-                  if ($i < 10) {
-                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
-                  } else if ($i < 100) {
-                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
-                  } else {
-                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
-                  }
-                  } 
+                <?php/*
+                for ($i = 1; $i <= 120; $i++) {
+                    if ($i < 10) {
+                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
+                    } else if ($i < 100) {
+                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
+                    } else {
+                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
+                    }
+                }*/
                 ?>
             </ul>        
         </div>
@@ -168,38 +168,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="./js/bootstrap.min.js"></script>
         <script src="./js/wedding.js"></script>
-        <script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>
+        <!-- <script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script> -->
         <script src="./js/gallery/responsiveslides.min.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                $(".rslides").responsiveSlides({
-                    auto: true, // Boolean: Animate automatically, true or false
-                    speed: 500, // Integer: Speed of the transition, in milliseconds
-                    timeout: 4000, // Integer: Time between slide transitions, in milliseconds
-                    pager: false, // Boolean: Show pager, true or false
-                    nav: false, // Boolean: Show navigation, true or false
-                    random: false, // Boolean: Randomize the order of the slides, true or false
-                    pause: false, // Boolean: Pause on hover, true or false
-                    pauseControls: true, // Boolean: Pause when hovering controls, true or false
-                    prevText: "Previous", // String: Text for the "previous" button
-                    nextText: "Next", // String: Text for the "next" button
-                    maxwidth: "", // Integer: Max-width of the slideshow, in pixels
-                    navContainer: "", // Selector: Where controls should be appended to, default is after the 'ul'
-                    manualControls: "", // Selector: Declare custom pager navigation
-                    namespace: "rslides", // String: Change the default namespace used
-                    before: function() {
-                    }, // Function: Before callback
-                    after: function() {
-                    }     // Function: After callback
-                });
-                $('a').click(function() {
-                    $('html, body').animate({
-                        scrollTop: $($.attr(this, 'href')).offset().top
-                    }, 500);
-                    return false;
-                });
-                $("img.lazy").lazyload();
-            });
-        </script>
     </body>
 </html>
