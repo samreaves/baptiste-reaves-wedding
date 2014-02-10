@@ -121,12 +121,14 @@ $(function() {
                 marginTop: '295'
             }, 280);
             navClick = 1;
+            $(".navbar-collapse").slideToggle();
         }
         else if (navClick === 1) {
             $("#headPicture").animate({
                 marginTop: '0'
             }, 280);
             navClick = 0;
+            $(".navbar-collapse").slideToggle();
         }
         ;
     });
