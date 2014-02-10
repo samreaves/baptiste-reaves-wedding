@@ -28,12 +28,67 @@ $(function() {
         }     // Function: After callback
     });
 
+    ////////////////////////////////////////////////////
+    // Change active tab when user scrolls to section //
+    ////////////////////////////////////////////////////
+    
+    // Make sure if user clicked on nav, don't change active tab as the screen smoothscrolls
+    $click = 0;
+
+    function setClickTo0() {
+        setTimeout(function() {
+            $click = 0;
+        }, 500);
+    }
+
+    // On scroll, check for scrollTop position. If matches with position of element, change active tab.
+    $("#home").waypoint(function() {
+        if ($click === 0) {
+            $(".navbar-nav").children().removeClass("active");
+            $(".navbar-nav li:nth-child(1)").toggleClass("active");
+        }
+    });
+    $("#ourStory").waypoint(function() {
+        if ($click === 0) {
+            $(".navbar-nav").children().removeClass("active");
+            $(".navbar-nav li:nth-child(2)").toggleClass("active");
+        }
+    });
+    $("#bridalParty").waypoint(function() {
+        if ($click === 0) {
+            $(".navbar-nav").children().removeClass("active");
+            $(".navbar-nav li:nth-child(3)").toggleClass("active");
+        }
+    });
+    $("#photos").waypoint(function() {
+        if ($click === 0) {
+            $(".navbar-nav").children().removeClass("active");
+            $(".navbar-nav li:nth-child(4)").toggleClass("active");
+        }
+    });
+    $("#directions").waypoint(function() {
+        if ($click === 0) {
+            $(".navbar-nav").children().removeClass("active");
+            $(".navbar-nav li:nth-child(5)").toggleClass("active");
+        }
+    });
+    $("#rsvp").waypoint(function() {
+        $(".navbar-nav").children().removeClass("active");
+        $(".navbar-nav li:nth-child(6)").toggleClass("active");
+    });
+    $("#registry").waypoint(function() {
+        if ($click === 0) {
+            $(".navbar-nav").children().removeClass("active");
+            $(".navbar-nav li:nth-child(7)").toggleClass("active");
+        }
+    });
+
+    // Disable normal link behavior. Already handled with smoothscroll
     $("a").click(function(e) {
         event.preventDefault();
     });
 
     // On nav click, reset active tab and smooth scroll to position on site.
-    $click = 0;
     $('.navbar-nav li a').click(function() {
         $click = 1;
         $(this).parent().siblings().removeClass("active");

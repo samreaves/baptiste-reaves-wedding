@@ -164,128 +164,24 @@
             <h2 class="center header">Registry</h2>
             <div class="row">
                 <div class="col-sm-4">
-                    <h4>Crate & Barrel</h4>
+                    <center><a href="http://www.crateandbarrel.com/Gift-Registry/Brittany-Baptiste-and-Sam-Reaves/r4619566"><img src="./images/crateAndBarrel.png" class="img-responsive"/></a></center>
                 </div>
                 <div class="col-sm-4">
-                    <h4>myRegistry.com</h4>
+                    <center><a href="http://www2.myregistry.com/Visitors/GiftList/?panel=GuestBook"><img src="./images/myRegistry.png" class="img-responsive"/></a></center>
                 </div>
                 <div class="col-sm-4">
-                    <h4>Macy's</h4>
+                    <center><a href="http://www1.macys.com/registry/wedding/guest/?registryId=6090352"><img src="./images/macys.png" class="img-responsive"/></a></center>
                 </div>
             </div>
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>
-        <script src='./js/waypoints.min.js'
-                <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src='./js/waypoints.min.js'</script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="./js/bootstrap.min.js"></script>
-            <script>
-                function setClickTo0() {
-                    setTimeout(function() {
-                        $click = 0;
-                    }, 500);
-                }
-            </script>
-            <script src="./js/wedding.js"></script>
-            <!--<script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>-->
-            <script src="./js/gallery/responsiveslides.min.js"></script>
-            <script>
-                $(document).ready(function() {
-                    // Initialize positions of page elements
-                    /*$ourStory = $("#ourStory").position().top;
-                     $bridalParty = $("#bridalParty").position().top;
-                     $photos = $("#photos").position().top;
-                     $directions = $("#directions").position().top;
-                     $rsvp = $("#rsvp").position().top;
-                     $registry = $("#registry").position().top;
-                     console.log("does this work either?");*/
+        <script src="./js/wedding.js"></script>
+        <!--<script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>-->
+        <script src="./js/gallery/responsiveslides.min.js"></script>
 
-                    // On scroll, check for scrollTop position. If matches with position of element, change active tab.
-                    $("#home").waypoint(function() {
-                        if ($click === 0) {
-                            $(".navbar-nav").children().removeClass("active");
-                            $(".navbar-nav li:nth-child(1)").toggleClass("active");
-                        }
-                    });
-                    $("#ourStory").waypoint(function() {
-                        if ($click === 0) {
-                            $(".navbar-nav").children().removeClass("active");
-                            $(".navbar-nav li:nth-child(2)").toggleClass("active");
-                        }
-                    });
-                    $("#bridalParty").waypoint(function() {
-                        if ($click === 0) {
-                            $(".navbar-nav").children().removeClass("active");
-                            $(".navbar-nav li:nth-child(3)").toggleClass("active");
-                        }
-                    });
-                    $("#photos").waypoint(function() {
-                        if ($click === 0) {
-                            $(".navbar-nav").children().removeClass("active");
-                            $(".navbar-nav li:nth-child(4)").toggleClass("active");
-                        }
-                    });
-                    $("#directions").waypoint(function() {
-                        if ($click === 0) {
-                            $(".navbar-nav").children().removeClass("active");
-                            $(".navbar-nav li:nth-child(5)").toggleClass("active");
-                        }
-                    });
-                    $("#rsvp").waypoint(function() {
-                        $(".navbar-nav").children().removeClass("active");
-                        $(".navbar-nav li:nth-child(6)").toggleClass("active");
-                    });
-                    $("#registry").waypoint(function() {
-                        if ($click === 0) {
-                            $(".navbar-nav").children().removeClass("active");
-                            $(".navbar-nav li:nth-child(7)").toggleClass("active");
-                        }
-                    });
-
-                    /*$(window).scroll(function() {
-                     
-                     var offset = $("body").scrollTop();
-                     console.log(offset);
-                     switch (offset)
-                     {
-                     case 0:
-                     offset < $ourStory;
-                     $(".navbar-nav").children().removeClass("active");
-                     $(".navbar-nav li:nth-child(1)").toggleClass("active");
-                     break;
-                     case 1:
-                     offset >= $ourStory && x < $bridalParty;
-                     $(".navbar-nav").children().removeClass("active");
-                     $(".navbar-nav li:nth-child(2)").toggleClass("active");
-                     break;
-                     case 2:
-                     offset >= $bridalParty && x < $photos;
-                     $(".navbar-nav").children().removeClass("active");
-                     $(".navbar-nav li:nth-child(3)").toggleClass("active");
-                     break;
-                     case 3:
-                     offset >= $photos && x < $directions;
-                     $(".navbar-nav").children().removeClass("active");
-                     $(".navbar-nav li:nth-child(4)").toggleClass("active");
-                     break;
-                     case 4:
-                     offset >= $directions && x < $rsvp;
-                     $(".navbar-nav").children().removeClass("active");
-                     $(".navbar-nav li:nth-child(5)").toggleClass("active");
-                     break;
-                     case 5:
-                     offset >= $rsvp && x < $registry;
-                     $(".navbar-nav").children().removeClass("active");
-                     $(".navbar-nav li:nth-child(6)").toggleClass("active");
-                     break;
-                     case 6:
-                     offset >= $registry;
-                     $(".navbar-nav").children().removeClass("active");
-                     $(".navbar-nav li:nth-child(7)").toggleClass("active");
-                     break;
-                     }
-                     });*/
-                });
-            </script>
-        </body>
-    </html>
+    </body>
+</html>
