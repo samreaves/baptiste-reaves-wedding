@@ -4,7 +4,17 @@
  January 29th, 2014
  */
 
+
 $(function() {
+
+    // Reset click event for our scroll tracking function that works only when mouse is clicked
+    $.fn.setClickToZero = function() {
+        return this.each(function() {
+            setTimeout(function() {
+                $click = 0;
+            }, 500);
+        });
+    };
 
     // Initialize responsive slides
     $(".rslides").responsiveSlides({
@@ -31,15 +41,9 @@ $(function() {
     ////////////////////////////////////////////////////
     // Change active tab when user scrolls to section //
     ////////////////////////////////////////////////////
-    
+
     // Make sure if user clicked on nav, don't change active tab as the screen smoothscrolls
     $click = 0;
-
-    function setClickTo0() {
-        setTimeout(function() {
-            $click = 0;
-        }, 500);
-    }
 
     // On scroll, check for scrollTop position. If matches with position of element, change active tab.
     $("#home").waypoint(function() {
@@ -94,8 +98,11 @@ $(function() {
         $(this).parent().siblings().removeClass("active");
         $(this).parent().toggleClass("active");
         $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500).then(setClickTo0());
+            scrollTop: $(
+                    $.attr(this, 'href'))
+                    .offset()
+                    .top
+        }, 500).setClickToZero();
     });
 
     //Initialize lazyload
