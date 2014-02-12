@@ -61,3 +61,16 @@ body {
     color: #0051ff;
     font-weight: bold;
 }
+
+/* Maps */
+#venueMap { 
+    height: 40rem; 
+    width: 40rem; 
+    margin: 0 auto;
+}
+#courtyardMap { 
+    height: 40rem; 
+}
+#wMap { 
+    height: 40rem; 
+}
