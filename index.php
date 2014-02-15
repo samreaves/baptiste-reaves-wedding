@@ -126,106 +126,121 @@
         </div>
         <div id="directions" class="container topPadding">
             <h2 class="center header">Directions</h2>
-            <div class="row">
+            <div id="courthouse" class="row">
+                <!--                <div class="col-xs-12">
+                                    <h4 class="center">Our Venue</h4>
+                                     <center><iframe src="https://mapsengine.google.com/map/embed?mid=zVnRrsBSuH_c.kz6hePyLmMwc" width="480" height="480"></iframe></center>
+                -->                    
                 <div class="col-xs-12">
-                    <h4 class="center">Our Venue</h4>
-                    <!-- <center><iframe src="https://mapsengine.google.com/map/embed?mid=zVnRrsBSuH_c.kz6hePyLmMwc" width="480" height="480"></iframe></center>
-                    -->
-                    <div id="venueMap"></div>
-                    <!--
-                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?t=h&amp;sll=33.7748275,-84.2963123&amp;sspn=0.0016637,0.0026687&amp;q=Dekalb+History+Center+Museum&amp;cid=0x63f5425ba2131ec0&amp;ie=UTF8&amp;hq=Dekalb+History+Center+Museum&amp;hnear=&amp;ll=33.774828,-84.296312&amp;spn=0.006295,0.006295&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?t=h&amp;sll=33.7748275,-84.2963123&amp;sspn=0.0016637,0.0026687&amp;q=Dekalb+History+Center+Museum&amp;cid=0x63f5425ba2131ec0&amp;ie=UTF8&amp;hq=Dekalb+History+Center+Museum&amp;hnear=&amp;ll=33.774828,-84.296312&amp;spn=0.006295,0.006295&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-                    -->
+                    <iframe id="venue" class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.4518693219457!2d-84.29631229999998!3d33.7748275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5073e75fc4bfd%3A0x63f5425ba2131ec0!2sDekalb+History+Center+Museum!5e0!3m2!1sen!2sus!4v1392493415013" draggable="0" frameborder="0" style="border:0"></iframe>
+                    <p>
+                        We're getting married at a beautiful 1800s marble courthouse in Decatur, GA -- Atlanta's peaceful and niche suburb to the East. If you need directions, click the "view in Google maps" link and select "Directions" in the information box to the left.
+                    </p>
                 </div>
+                <!--
+                                     <div id="venueMap"></div> 
+                
+                
+                                </div>-->
             </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <h4 class="center">Courtyard Marriot</h4>
-                    <div id="courtyardMap"></div>
-                    <!--
-                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=courtyard+marriott+near+Decatur,+GA&amp;aq=0&amp;oq=courtyard+marriott+de&amp;sll=33.775202,-84.296317&amp;sspn=0.001958,0.00284&amp;t=h&amp;ie=UTF8&amp;hq=courtyard+marriott&amp;hnear=Decatur,+DeKalb,+Georgia&amp;fll=33.776704,-84.296583&amp;fspn=0.002135,0.00284&amp;st=101124652325230410087&amp;rq=1&amp;ev=zi&amp;split=1&amp;ll=33.861906,-84.265015&amp;spn=0.002135,0.00284&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=courtyard+marriott+near+Decatur,+GA&amp;aq=0&amp;oq=courtyard+marriott+de&amp;sll=33.775202,-84.296317&amp;sspn=0.001958,0.00284&amp;t=h&amp;ie=UTF8&amp;hq=courtyard+marriott&amp;hnear=Decatur,+DeKalb,+Georgia&amp;fll=33.776704,-84.296583&amp;fspn=0.002135,0.00284&amp;st=101124652325230410087&amp;rq=1&amp;ev=zi&amp;split=1&amp;ll=33.861906,-84.265015&amp;spn=0.002135,0.00284" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-                    -->
-                </div>
-                <div class="col-sm-6">
-                    <h4 class="center">W Midtown</h4>
-                    <div id="wMap"></div>
-                    <!--
-                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=W+Atlanta+-+Midtown,+14th+Street+Northeast,+Atlanta,+GA&amp;aq=0&amp;oq=w+midtown&amp;sll=33.776704,-84.296583&amp;sspn=0.002135,0.00284&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=33.786952,-84.381661&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br /><small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=W+Atlanta+-+Midtown,+14th+Street+Northeast,+Atlanta,+GA&amp;aq=0&amp;oq=w+midtown&amp;sll=33.776704,-84.296583&amp;sspn=0.002135,0.00284&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=33.786952,-84.381661&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-                    -->
-                </div>
-            </div>
-            <div class="row">
+            <div id="courtyardDecatur" class="row">
                 <div class="col-xs-12">
-                    <h4>Things to Do</h4>
+
                 </div>
+                <!--                <div class="col-sm-6">
+                                    <h4 class="center">Courtyard Marriot</h4>
+                                    <div id="courtyardMap"></div> -->
+                <iframe id="courtyard" class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6632.779382211738!2d-84.29722357857621!3d33.77643362072889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10bb615ab0d2dec5!2sCourtyard+Atlanta+Decatur+Downtown%2FEmory!5e0!3m2!1sen!2sus!4v1392493798318" draggable="0" frameborder="0" style="border:0"></iframe>
+                <p>
+                    We're getting married at a beautiful 1800s marble courthouse in Decatur, GA -- Atlanta's peaceful and niche suburb to the East. If you need directions, click the "view in Google maps" link and select "Directions" in the information box to the left.
+                </p>
             </div>
+            <!-- <div class="col-sm-6">
+                <h4 class="center">W Midtown</h4>
+                <div id="wMap"></div> -->
         </div>
-
-        <div id="rsvp" class="container topPadding">
-            <h2 class="center header">RSVP</h2>
+    </div>
+    <div id="wMidtown" class="row">
+        <div class="col-xs-12">
+            <iframe id="w" class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3315.991359400639!2d-84.38165004999999!3d33.7867213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f504440e448dcd%3A0x2cc2e6d6029cdccd!2sW+Atlanta+-+Midtown!5e0!3m2!1sen!2sus!4v1392493852640" draggable="0" frameborder="0" style="border:0"></iframe>
+            <p>
+                We're getting married at a beautiful 1800s marble courthouse in Decatur, GA -- Atlanta's peaceful and niche suburb to the East. If you need directions, click the "view in Google maps" link and select "Directions" in the information box to the left.
+            </p>
         </div>
-        <div id="registry" class="container topPadding">
-            <h2 class="center header">Registry</h2>
-            <div class="row">
-                <div class="col-sm-4">
-                    <center><a href="http://www.crateandbarrel.com/Gift-Registry/Brittany-Baptiste-and-Sam-Reaves/r4619566"><img src="./images/crateAndBarrel.png" class="img-circle img-responsive"/></a></center>
-                </div>
-                <div class="col-sm-4">
-                    <center><a href="http://www2.myregistry.com/Visitors/GiftList/?panel=GuestBook"><img src="./images/myRegistry.png" class="img-circle img-responsive"/></a></center>
-                </div>
-                <div class="col-sm-4">
-                    <center><a href="http://www1.macys.com/registry/wedding/guest/?registryId=6090352"><img src="./images/macys.png" class="img-circle img-responsive"/></a></center>
-                </div>
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h4>Things to Do</h4>
         </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://code.jquery.com/jquery.js"></script>
-        <script src='./js/waypoints.min.js'</script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="./js/bootstrap.min.js"></script>
-        <script src="./js/wedding.js"></script>
-        <!--<script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>-->
-        <script src="./js/gallery/responsiveslides.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaHr3QdelytOo6L2DV_R_XZ3zUicjnEL0&sensor=false">
-        </script>
-        <script type="text/javascript">
-            function initialize() {
-                var venueOptions = {
-                    center: new google.maps.LatLng(33.77493, -84.29699),
-                    zoom: 15
-                };
-                var venueMap = new google.maps.Map(document.getElementById("venueMap"),
-                        venueOptions);
-                var venueMarker = new google.maps.Marker({
-                    position: new google.maps.LatLng(33.77493, -84.29699),
-                    map: venueMap,
-                    title: "Our Venue - Dekalb County History Museum"
-                });
+    </div>
+</div>
 
-                var wOptions = {
-                    center: new google.maps.LatLng(33.78661, -84.38197),
-                    zoom: 15
-                };
-                var wMap = new google.maps.Map(document.getElementById("wMap"),
-                        wOptions);
-                var wMarker = new google.maps.Marker({
-                    position: new google.maps.LatLng(33.78661, -84.38197),
-                    map: wMap,
-                    title: "Hotel Option #2 - W Midtown in the heart of Atlanta"
-                });
+<div id="rsvp" class="container topPadding">
+    <h2 class="center header">RSVP</h2>
+</div>
+<div id="registry" class="container topPadding">
+    <h2 class="center header">Registry</h2>
+    <div class="row">
+        <div class="col-sm-4">
+            <center><a href="http://www.crateandbarrel.com/Gift-Registry/Brittany-Baptiste-and-Sam-Reaves/r4619566"><img src="./images/crateAndBarrel.png" class="img-circle img-responsive"/></a></center>
+        </div>
+        <div class="col-sm-4">
+            <center><a href="http://www2.myregistry.com/Visitors/GiftList/?panel=GuestBook"><img src="./images/myRegistry.png" class="img-circle img-responsive"/></a></center>
+        </div>
+        <div class="col-sm-4">
+            <center><a href="http://www1.macys.com/registry/wedding/guest/?registryId=6090352"><img src="./images/macys.png" class="img-circle img-responsive"/></a></center>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src='./js/waypoints.min.js'</script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/wedding.js"></script>
+<!--<script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>-->
+<script src="./js/gallery/responsiveslides.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaHr3QdelytOo6L2DV_R_XZ3zUicjnEL0&sensor=false">
+</script>
+<script type="text/javascript">
+    function initialize() {
+        var venueOptions = {
+            center: new google.maps.LatLng(33.77493, -84.29699),
+            zoom: 15
+        };
+        var venueMap = new google.maps.Map(document.getElementById("venueMap"),
+                venueOptions);
+        var venueMarker = new google.maps.Marker({
+            position: new google.maps.LatLng(33.77493, -84.29699),
+            map: venueMap,
+            title: "Our Venue - Dekalb County History Museum"
+        });
 
-                var courtyardOptions = {
-                    center: new google.maps.LatLng(33.77694, -84.29675),
-                    zoom: 15
-                };
-                var courtyardMap = new google.maps.Map(document.getElementById("courtyardMap"),
-                        courtyardOptions);
-                var courtyardMarker = new google.maps.Marker({
-                    position: new google.maps.LatLng(33.77694, -84.29675),
-                    map: courtyardMap,
-                    title: "Hotel Option #1 - Courtyard Marriot next to our venue in Decatur"
-                });
-            }
-            google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
-    </body>
+        var wOptions = {
+            center: new google.maps.LatLng(33.78661, -84.38197),
+            zoom: 15
+        };
+        var wMap = new google.maps.Map(document.getElementById("wMap"),
+                wOptions);
+        var wMarker = new google.maps.Marker({
+            position: new google.maps.LatLng(33.78661, -84.38197),
+            map: wMap,
+            title: "Hotel Option #2 - W Midtown in the heart of Atlanta"
+        });
+
+        var courtyardOptions = {
+            center: new google.maps.LatLng(33.77694, -84.29675),
+            zoom: 15
+        };
+        var courtyardMap = new google.maps.Map(document.getElementById("courtyardMap"),
+                courtyardOptions);
+        var courtyardMarker = new google.maps.Marker({
+            position: new google.maps.LatLng(33.77694, -84.29675),
+            map: courtyardMap,
+            title: "Hotel Option #1 - Courtyard Marriot next to our venue in Decatur"
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</body>
 </html>

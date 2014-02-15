@@ -132,4 +132,7 @@ $(function() {
         }
         ;
     });
+    jQuery(document).bind('w, courtyard, venue', function(e, map, infowindow, marker) {
+        map.scrollwheel = false;
+    });
 });
