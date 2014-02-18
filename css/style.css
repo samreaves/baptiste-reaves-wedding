@@ -6,6 +6,7 @@
 
 body {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 
@@ -60,6 +61,7 @@ body {
     font-size: 5em;
     color: #0051ff;
     font-weight: bold;
+    margin-bottom: 3rem;
 }
 
 /* Maps */
@@ -80,4 +82,16 @@ body {
 }
 #wMap { 
     height: 40rem; 
+}
+
+rsvpBorder {
+    border-color: gray;
+}
+
+#directions .row {
+    margin-bottom: 4rem;
+}
+
+#directions p {
+    margin-top: 1.5rem;
 }
