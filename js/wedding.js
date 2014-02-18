@@ -106,7 +106,7 @@ $(function() {
     });
 
     //Initialize lazyload
-    //$("img.lazy").lazyload();
+    $("img.lazy").lazyload();
 
     // On hover of navbar toggle, toggle style workaround
     $(".navbar-toggle").hover(function() {

@@ -111,16 +111,16 @@
         <div id="photos" class="container topPadding">
             <h2 class="center header">Photos</h2>
             <ul class="rslides">
-                <?php /*
-                  for ($i = 1; $i <= 120; $i++) {
-                  if ($i < 10) {
-                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
-                  } else if ($i < 100) {
-                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
-                  } else {
-                  echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
-                  }
-                  } */
+                <?php
+                for ($i = 1; $i <= 120; $i++) {
+                    if ($i < 10) {
+                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam00" . $i . ".jpg\"\></li>";
+                    } else if ($i < 100) {
+                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam0" . $i . ".jpg\"\></li>";
+                    } else {
+                        echo "<li><img class=\"lazy\" src=\"./images/photos/brittsam" . $i . ".jpg\"\></li>";
+                    }
+                }
                 ?>
             </ul>        
         </div>
@@ -173,55 +173,15 @@
                 </div>
             </div>
         </div>
+        
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src='./js/waypoints.min.js'</script>
+        
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="./js/bootstrap.min.js"></script>
-        <script src="./js/wedding.js"></script>
-        <!--<script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>-->
         <script src="./js/gallery/responsiveslides.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaHr3QdelytOo6L2DV_R_XZ3zUicjnEL0&sensor=false">
-        </script>
-        <script type="text/javascript">
-            function initialize() {
-                var venueOptions = {
-                    center: new google.maps.LatLng(33.77493, -84.29699),
-                    zoom: 15
-                };
-                var venueMap = new google.maps.Map(document.getElementById("venueMap"),
-                        venueOptions);
-                var venueMarker = new google.maps.Marker({
-                    position: new google.maps.LatLng(33.77493, -84.29699),
-                    map: venueMap,
-                    title: "Our Venue - Dekalb County History Museum"
-                });
-
-                var wOptions = {
-                    center: new google.maps.LatLng(33.78661, -84.38197),
-                    zoom: 15
-                };
-                var wMap = new google.maps.Map(document.getElementById("wMap"),
-                        wOptions);
-                var wMarker = new google.maps.Marker({
-                    position: new google.maps.LatLng(33.78661, -84.38197),
-                    map: wMap,
-                    title: "Hotel Option #2 - W Midtown in the heart of Atlanta"
-                });
-
-                var courtyardOptions = {
-                    center: new google.maps.LatLng(33.77694, -84.29675),
-                    zoom: 15
-                };
-                var courtyardMap = new google.maps.Map(document.getElementById("courtyardMap"),
-                        courtyardOptions);
-                var courtyardMarker = new google.maps.Marker({
-                    position: new google.maps.LatLng(33.77694, -84.29675),
-                    map: courtyardMap,
-                    title: "Hotel Option #1 - Courtyard Marriot next to our venue in Decatur"
-                });
-            }
-            google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
+        <script src="./js/wedding.js"></script>
+        <script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>
     </body>
 </html>
