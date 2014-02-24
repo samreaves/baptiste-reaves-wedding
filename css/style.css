@@ -88,6 +88,35 @@ rsvpBorder {
     border-color: gray;
 }
 
+#ourStoryBack {
+    background: coral;
+}
+
+#bridalPartyBack {
+    background: bisque;
+}
+
+#photosBack {
+    background: silver;
+}
+
+#RSVPBack {
+    background: green;
+}
+
+#ourRegistryBack {
+    background: purple;
+}
+
+#footerBack {
+    background: darkred;
+    padding-bottom: 8rem;
+}
+
+#directionsback {
+    background: #ffd700;
+}
+
 #directions .row {
     margin-bottom: 4rem;
 }
