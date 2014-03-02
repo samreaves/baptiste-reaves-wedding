@@ -88,13 +88,9 @@ $(function() {
         }
     });
 
-    // Disable normal link behavior. Already handled with smoothscroll
-    $("a").click(function(e) {
-        event.preventDefault();
-    });
-
     // On nav click, reset active tab and smooth scroll to position on site.
-    $('.navbar-nav li a').click(function() {
+    $('.navbar-nav li a, .blueLink').click(function(event) {
+        event.preventDefault();
         $click = 1;
         $(this).parent().siblings().removeClass("active");
         $(this).parent().toggleClass("active");
