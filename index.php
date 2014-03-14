@@ -92,17 +92,10 @@
             </div>
             <hr/>
             <div class="row">
-                <div class="col-sm-6">
-                    <h4>2008</h4>
-                    <p>
-                        GSU this. GSU that.
-                    </p>
-                </div>
-                <div class="col-sm-6">
-                    <h4>Groom</h4>
-                    <p>
-                        Phone? There's a phone icon.
-                    </p>
+                <div class="col-sm-12">
+                    <center>
+                        <img src="images/brittsamwall.gif" />
+                    </center>
                 </div>          
             </div>
         </div>      
@@ -131,7 +124,7 @@
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline first">                           
                                     <b>Anais Baptiste:</b> Anais is the second half of the amazing Baptiste twins. To her family and close friends,
-                                    she's lovingly called Nana. She's the queen of Belgian waffle-making, a derby girl, a lover
+                                    she's lovingly called Nana. She's the queen of Belgian waffle-making, a derby girl, a lover of 
                                     design and most importantly my adorable and optimistic little sister, my ride or die. 
                                 </p>
                             </div>
@@ -197,7 +190,9 @@
                             </div>
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline">                         
-                                    <b>Philip Reaves:</b> Stuff about Philip Reaves. 
+                                    <b>Philip Reaves:</b> Philip has been an influential part of my life from day 1. From asking our mother for a brother when he was young, 
+                                    driving me to school in middle school, to enveloping me with dance music in in our adult lives, I could not appreciate him more. Always planning
+                                    an adventure, his enthusiasm for life shows every day. On September 28th, 2014, Philip will be my <i>best man</i>.
                                 </p>
                             </div>
                         </div>
@@ -206,7 +201,10 @@
                         <div class="row">
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline first">                           
-                                    <b>Darren Head:</b> Stuff about Darren Head. 
+                                    <b>Darren Head:</b> Darren, a loving husband and father of two, sets the bar high for his life.
+                                    He takes care of his family and friends. He plays a major role in <a href="http://www.zacbrownband.com">one of the best selling country artists'</a> 
+                                    success each day. Yet despite his lack of me time, he always manages to have enough energy and liveliness 
+                                    to make everyone around him smile and laugh. Darren is one of my role models, and he should be one of yours too.
                                 </p>
                             </div>
                             <div class="col-xs-3">
@@ -221,7 +219,13 @@
                             </div>
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline">                         
-                                    <b>Griff Fulton:</b> Stuff about Griffith Bay. 
+                                    <b>Griff Fulton:</b> Griff and I first met online, deciding to meet when I was in Manhattan 
+                                    interviewing producer/DJ <a href="https://www.facebook.com/sebastienleger">Sebastien Leger</a>. I introduced Griff and his brother - <a href="http://www.youtube.com/watch?v=oXFHVIThTyc">who now DJs for a 
+                                    living across the world</a> - to their first clubbing experience, and we've been close friends ever since. 
+                                    Despite living 740 miles from each other, we rarely go a day without having a great conversation. Griff is one of 
+                                    the few people who lives and breathes dance music with me. I can't wait for you to meet him.
+                                    
+                                    Oh - and our music for the occasion will be spun by Griff's brother <a href="https://www.facebook.com/PierceFulton">Pierce</a>. Join us on the dancefloor after the ceremony!
                                 </p>
                             </div>
                         </div>
@@ -230,7 +234,11 @@
                         <div class="row">
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline first">                           
-                                    <b>Tyler Reid:</b> Stuff about Tyler Reid.                       
+                                    <b>Tyler Reid:</b> Tyler and I have been nerding out for nearly two decades. From leading the free world playing Civilization
+                                     in 4th grade all the way to building enterprise web applications in our adult lives, Tyler and I have always teamed up 
+                                     using our intellect to get where we want to go in life. I'm very sure we will team up to build impactful very soon. After all,
+                                     Tyler has already <a href="http://www.tyler-reid.com/dataAnalysis.html">developed an algorithm that predicts hospital visits in an Oregon hospital</a>.
+                                     
                                 </p>
                             </div>                    
                             <div class="col-xs-3">
@@ -245,7 +253,9 @@
                             </div>
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline">                         
-                                    <b>Kaan Ural:</b> Stuff about Kaan Ural. 
+                                    <b>Kaan Ural:</b> Kaan graced us with his charm when he moved from Turkey in middle school. Since then, he's lived life "70's big" 
+                                    and made sure we do the same too. Always providing comedic relief, Kaan is a friend no one feels uncomfortable around, and I'm sure 
+                                    everyone will be no match for his rugged good looks.
                                 </p>
                             </div>
                         </div>
@@ -341,10 +351,10 @@
                         <ul>
                             <li><a class="blueLink2" target="_blank" href="http://www.eddiesattic.com">Eddie's Attic (where John Mayer got his start)</a></li>
                             <li><a class="blueLink2" target="_blank" href="http://decaturfarmersmarket.com/wordpress/">Decatur Farmer's Market</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://www.decaturhotyoga.com">Decatur Yoga and Pilates</a></li>
                             <li><a class="blueLink2" target="_blank" href="http://www.vicsandwich.com">Victory Sandwich Bar</a></li>
                             <li><a class="blueLink2" target="_blank" href="http://www.theiberianpigatl.com/index">The Iberian Pig</a></li>
                             <li><a class="blueLink2" target="_blank" href="http://www.leonsfullservice.com">Leon's Full Service</a></li>
+                            <li><a class="blueLink2" target="_blank" href="http://www.decaturhotyoga.com">Decatur Yoga and Pilates</a></li>
                             <li>For more information & ideas visit: <a class="blueLink2" target="_blank" href="http://www.decaturga.com">www.decaturga.com</a></li>
                         </ul>
                     </div>

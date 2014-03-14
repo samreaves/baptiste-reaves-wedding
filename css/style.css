@@ -129,7 +129,7 @@ rsvpBorder {
 
 .blueLink, .blueLink2 {
     color: #0051ff;
-   
+
 }
 .blueLink2:hover, .blueLink:hover {
     text-decoration: none;
@@ -143,6 +143,12 @@ rsvpBorder {
 }
 #OurStoryPadding {
     padding-bottom: 20px;
+}
+
+#ourStory img {
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    border-radius: 3rem;
 }
 #BrittsBio {
     padding-top: 10px;
