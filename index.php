@@ -58,9 +58,10 @@
         <div class="spacer"></div>
         <img src="./images/steps4.png" alt="Brittany Baptiste & Sam Reaves" id="headPicture" class="img-responsive"/>
         <br/>
+        <img class="img-responsive" src="./images/reavesdividerlogo2.png"/>
         <div class="container">
             <div class="row">
-                <img class="img-responsive" src="images/BSArrowBig.png"/>
+                
             </div>
         </div>
         <div class="container">
@@ -221,10 +222,10 @@
                                 <p class="bridalPartyInline">                         
                                     <b>Griff Fulton:</b> Griff and I first met online, deciding to meet when I was in Manhattan 
                                     interviewing producer/DJ <a href="https://www.facebook.com/sebastienleger">Sebastien Leger</a>. I introduced Griff and his brother - <a href="http://www.youtube.com/watch?v=oXFHVIThTyc">who now DJs for a 
-                                    living across the world</a> - to their first clubbing experience, and we've been close friends ever since. 
+                                        living across the world</a> - to their first clubbing experience, and we've been close friends ever since. 
                                     Despite living 740 miles from each other, we rarely go a day without having a great conversation. Griff is one of 
                                     the few people who lives and breathes dance music with me. I can't wait for you to meet him.
-                                    
+                                    <br/><br/>
                                     Oh - and our music for the occasion will be spun by Griff's brother <a href="https://www.facebook.com/PierceFulton">Pierce</a>. Join us on the dancefloor after the ceremony!
                                 </p>
                             </div>
@@ -235,10 +236,10 @@
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline first">                           
                                     <b>Tyler Reid:</b> Tyler and I have been nerding out for nearly two decades. From leading the free world playing Civilization
-                                     in 4th grade all the way to building enterprise web applications in our adult lives, Tyler and I have always teamed up 
-                                     using our intellect to get where we want to go in life. I'm very sure we will team up to build impactful very soon. After all,
-                                     Tyler has already <a href="http://www.tyler-reid.com/dataAnalysis.html">developed an algorithm that predicts hospital visits in an Oregon hospital</a>.
-                                     
+                                    in 4th grade all the way to building enterprise web applications in our adult lives, Tyler and I have always teamed up 
+                                    using our intellect to get where we want to go in life. I'm very sure we will team up to build impactful very soon. After all,
+                                    Tyler has already <a href="http://www.tyler-reid.com/dataAnalysis.html">developed an algorithm that predicts hospital visits in an Oregon hospital</a>.
+
                                 </p>
                             </div>                    
                             <div class="col-xs-3">
@@ -262,24 +263,72 @@
                     </div>
                 </div>  
             </div>           
-        <div id="photosBack">
-            <div id="photos" class="container topPadding">
-                <h2 class="center header">Photos</h2>
-                <ul class="rslides">
-                    <?php
-                     /*for ($i = 1; $i <= 120; $i++) {
-                      if ($i < 10) {
-                      echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam00" . $i . ".jpg\"\></li>";
-                      } else if ($i < 100) {
-                      echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam0" . $i . ".jpg\"\></li>";
-                      } else {
-                      echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam" . $i . ".jpg\"\></li>";
-                      }
-                      } */
-                    ?>
-                </ul>        
+            <div id="photosBack">
+                <div id="photos" class="container topPadding">
+                    <h2 class="center header">Photos</h2>
+                    <ul class="rslides">
+                        <?php
+                        /* for ($i = 1; $i <= 120; $i++) {
+                          if ($i < 10) {
+                          echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam00" . $i . ".jpg\"\></li>";
+                          } else if ($i < 100) {
+                          echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam0" . $i . ".jpg\"\></li>";
+                          } else {
+                          echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam" . $i . ".jpg\"\></li>";
+                          }
+                          } */
+                        ?>
+                        <li>
+                            <img class="lazy" src="./images/photos/1.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/2.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/3.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/4.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/5.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/6.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/7.jpg"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/8.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/9.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/10.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/11.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/12.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/13.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/14.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/15.png"/>
+                        </li>
+                        <li>
+                            <img class="lazy" src="./images/photos/16.png"/>
+                        </li>
+                    </ul>        
+                </div>
             </div>
-        </div>
             <div id="directions" class="container topPadding">
                 <hr/>
                 <h2 class="center header">Directions</h2>
@@ -300,13 +349,13 @@
                             "Directions" in the information box to the left. 
                             <br/>
                             <br/>
-                            The wedding ceremony will begin at 6:30pm, so be sure to get there before then!
+                            <b>The wedding ceremony will begin at 6:30pm</b>, so be sure to get there before then!
                             The cocktail hour and reception will both be held in the Old Courthouse as well,
                             so get comfy and have some fun with us!
                             <br/>
                             <br/>
                             If you're driving yourself to the Old Courthouse, you can either park at the current
-                            courthouse parking deck located at [ADDRESS] or you can find some street parking closeby
+                            courthouse parking deck located at <b>[ADDRESS]</b> or you can find some street parking closeby
                             (street parking is free on Sundays!).
                         </p>
                     </div>
@@ -374,43 +423,43 @@
             </div>
         </div>
     </div>   
-        <div id="RSVPBack">
-            <div id="rsvp" class="container topPadding">
-                <h2 class="center header">RSVP</h2>
-            </div>
+    <div id="RSVPBack">
+        <div id="rsvp" class="container topPadding">
+            <h2 class="center header">RSVP</h2>
         </div>
-        <div id="ourRegistryBack">
-            <div id="registry" class="container topPadding">
-                <h2 class="center header">Registry</h2>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <center><a href="http://www.crateandbarrel.com/Gift-Registry/Brittany-Baptiste-and-Sam-Reaves/r4619566"><img src="./images/crateAndBarrel.png" class="rsvpBorder img-circle img-responsive"/></a></center>
-                    </div>
-                    <div class="col-sm-4">
-                        <center><a href="http://www2.myregistry.com/Visitors/GiftList/?panel=GuestBook"><img src="./images/myRegistry.png" class="rsvpBorder img-circle img-responsive"/></a></center>
-                    </div>
-                    <div class="col-sm-4">
-                        <center><a href="http://www1.macys.com/registry/wedding/guest/?registryId=6090352"><img src="./images/macys.png" class="rsvpBorder img-circle img-responsive"/></a></center>
-                    </div>
+    </div>
+    <div id="ourRegistryBack">
+        <div id="registry" class="container topPadding">
+            <h2 class="center header">Registry</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <center><a href="http://www.crateandbarrel.com/Gift-Registry/Brittany-Baptiste-and-Sam-Reaves/r4619566"><img src="./images/crateAndBarrel.png" class="rsvpBorder img-circle img-responsive"/></a></center>
+                </div>
+                <div class="col-sm-4">
+                    <center><a href="http://www2.myregistry.com/Visitors/GiftList/?panel=GuestBook"><img src="./images/myRegistry.png" class="rsvpBorder img-circle img-responsive"/></a></center>
+                </div>
+                <div class="col-sm-4">
+                    <center><a href="http://www1.macys.com/registry/wedding/guest/?registryId=6090352"><img src="./images/macys.png" class="rsvpBorder img-circle img-responsive"/></a></center>
                 </div>
             </div>
         </div>
-        <div id="footerBack">
-            <div id="footer" class="container topPadding">
-                <center>
-                    <p>Created by the bride and groom</p>
-                </center>
-            </div>
+    </div>
+    <div id="footerBack">
+        <div id="footer" class="container topPadding">
+            <center>
+                <p>Created by the bride and groom</p>
+            </center>
         </div>
+    </div>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://code.jquery.com/jquery.js"></script>
-        <script src='./js/waypoints.min.js'</script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src='./js/waypoints.min.js'</script>
 
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="./js/bootstrap.min.js"></script>
-        <script src="./js/gallery/responsiveslides.min.js"></script>
-        <script src="./js/wedding.js"></script>
-        <script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>
-    </body>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/gallery/responsiveslides.min.js"></script>
+    <script src="./js/wedding.js"></script>
+    <script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>
+</body>
 </html>

@@ -169,3 +169,7 @@ rsvpBorder {
 hr {
     border-color:#474747;
 }
+
+#registry img {
+    height: 24rem;
+}
