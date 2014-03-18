@@ -203,7 +203,7 @@
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline first">                           
                                     <b>Darren Head:</b> Darren, a loving husband and father of two, sets the bar high for his life.
-                                    He takes care of his family and friends. He plays a major role in <a href="http://www.zacbrownband.com">one of the best selling country artists'</a> 
+                                    He takes care of his family and friends. He plays a major role in <a href="http://www.zacbrownband.com" target="_blank">one of the best selling country artists'</a> 
                                     success each day. Yet despite his lack of me time, he always manages to have enough energy and liveliness 
                                     to make everyone around him smile and laugh. Darren is one of my role models, and he should be one of yours too.
                                 </p>
@@ -221,12 +221,12 @@
                             <div class="col-xs-9">
                                 <p class="bridalPartyInline">                         
                                     <b>Griff Fulton:</b> Griff and I first met online, deciding to meet when I was in Manhattan 
-                                    interviewing producer/DJ <a href="https://www.facebook.com/sebastienleger">Sebastien Leger</a>. I introduced Griff and his brother - <a href="http://www.youtube.com/watch?v=oXFHVIThTyc">who now DJs for a 
-                                        living across the world</a> - to their first clubbing experience, and we've been close friends ever since. 
+                                    interviewing producer/DJ <a href="https://www.facebook.com/sebastienleger" target="_blank">Sebastien Leger</a>. I introduced Griff and his brother - <a href="http://www.youtube.com/watch?v=oXFHVIThTyc" target="_blank">who now DJs for a 
+                                        living across the world</a> - to their first live <a href="https://www.facebook.com/EricPrydzOfficial" target="_blank">Eric Prydz</a> experience, and we've been close friends ever since. 
                                     Despite living 740 miles from each other, we rarely go a day without having a great conversation. Griff is one of 
                                     the few people who lives and breathes dance music with me. I can't wait for you to meet him.
                                     <br/><br/>
-                                    Oh - and our music for the occasion will be spun by Griff's brother <a href="https://www.facebook.com/PierceFulton">Pierce</a>. Join us on the dancefloor after the ceremony!
+                                    Oh - and our music for the occasion will be spun by Griff's brother <a href="https://www.facebook.com/PierceFulton" target="_blank">Pierce</a>. Join us on the dancefloor after the ceremony!
                                 </p>
                             </div>
                         </div>
@@ -238,7 +238,7 @@
                                     <b>Tyler Reid:</b> Tyler and I have been nerding out for nearly two decades. From leading the free world playing Civilization
                                     in 4th grade all the way to building enterprise web applications in our adult lives, Tyler and I have always teamed up 
                                     using our intellect to get where we want to go in life. I'm very sure we will team up to build impactful very soon. After all,
-                                    Tyler has already <a href="http://www.tyler-reid.com/dataAnalysis.html">developed an algorithm that predicts hospital visits in an Oregon hospital</a>.
+                                    Tyler has already <a href="http://www.tyler-reid.com/dataAnalysis.html" target="_blank">developed an algorithm that predicts hospital visits in an Oregon hospital</a>.
 
                                 </p>
                             </div>                    
@@ -432,14 +432,14 @@
         <div id="registry" class="container topPadding">
             <h2 class="center header">Registry</h2>
             <div class="row">
-                <div class="col-sm-4">
-                    <center><a href="http://www.crateandbarrel.com/Gift-Registry/Brittany-Baptiste-and-Sam-Reaves/r4619566"><img src="./images/crateAndBarrel.png" class="rsvpBorder img-circle img-responsive"/></a></center>
+                <div class="col-sm-4 registryPadding">
+                    <center><a href="http://www.crateandbarrel.com/Gift-Registry/Brittany-Baptiste-and-Sam-Reaves/r4619566" target="_blank"><img src="./images/crateAndBarrel.png" class="rsvpBorder img-circle img-responsive"/></a></center>
                 </div>
-                <div class="col-sm-4">
-                    <center><a href="http://www2.myregistry.com/Visitors/GiftList/?panel=GuestBook"><img src="./images/myRegistry.png" class="rsvpBorder img-circle img-responsive"/></a></center>
+                <div class="col-sm-4 registryPadding">
+                    <center><a href="http://www2.myregistry.com/Visitors/GiftList/?panel=GuestBook" target="_blank"><img src="./images/myRegistry.png" class="rsvpBorder img-circle img-responsive"/></a></center>
                 </div>
-                <div class="col-sm-4">
-                    <center><a href="http://www1.macys.com/registry/wedding/guest/?registryId=6090352"><img src="./images/macys.png" class="rsvpBorder img-circle img-responsive"/></a></center>
+                <div class="col-sm-4 registryPadding">
+                    <center><a href="http://www1.macys.com/registry/wedding/guest/?registryId=6090352" target="_blank"><img src="./images/macys.png" class="rsvpBorder img-circle img-responsive"/></a></center>
                 </div>
             </div>
         </div>

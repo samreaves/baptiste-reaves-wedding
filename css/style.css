@@ -171,5 +171,30 @@ hr {
 }
 
 #registry img {
-    height: 24rem;
+    height: 20rem;
+}
+
+.registryPadding {
+    padding-top:4rem;
+}
+
+#photos a:hover {
+    text-decoration: none;
+    color: #fc6675;
+}
+
+#photos .prev {
+    margin-right: 2rem;
+}
+
+
+#photos ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#photos ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 4%;
 }
