@@ -61,7 +61,7 @@
         <img class="img-responsive" src="./images/reavesdividerlogo2.png"/>
         <div class="container">
             <div class="row">
-                
+
             </div>
         </div>
         <div class="container">
@@ -78,16 +78,18 @@
             <div class="row">
                 <div class="col-sm-6">
                     <center><img src="images/BrittsSoloImagePerfect.png"/></center>
-                    <h4 id='BrittsBio'>Bride</h4>
+                    <center><h4 id='BrittsBio'>Brittany</h4></center>
                     <p>
                         Hi there! My name is Brittany, but you probably already knew that. Atlanta is my home, but Brooklyn always has my heart. I love cooking almost as much as I love a great cheeseburger. I sing sometimes and listen to music all the time. I'm always up for a good laugh and swapping a story or two over a glass of wine. I'm kind of in love with this guy named Sam...
                     </p>
                 </div>
                 <div class="col-sm-6">
                     <center><img src="images/SamSoloImageBald.png"/></center>
-                    <h4>Groom</h4>
+                    <center><h4>Sam</h4></center>
                     <p>
-                        Sam loves code and MMA.
+                        Dance music is my fuel, and prosperous happiness is my passion. MMA, Premier League football and code fill my 
+                        weekends. On the weekdays, I build mobile apps for The Home Depot. I fell in love with my best friend in college and 
+                        never looked back. Can't wait to celebrate one of the best days of my life with those I love and appreciate!
                     </p>
                 </div>
             </div>
@@ -105,161 +107,101 @@
             <h2 class="center header">Bridal Party</h2>
             <div class="row">
                 <div class="col-sm-5">
-                    <h3>Bridesmaids</h3>
+                    <center><h3>Bridesmaids</h3></center>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline first" src="images/SkyeandNanaThisOne1.png"/>                     
-                            </div>
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline">                         
-                                    <b>Skye Baptiste:</b> Skye is half of the fun-loving duo that is the Baptiste twins. She's most likely to make
-                                    you a collage or video montage that you would adore. She a lover of puppies, kitties and unicorns,
-                                    a derby girl, an artist and most importantly, my loveable and snarky little sister, my ride or die. 
-                                </p>
-                            </div>
-                        </div>
+                        <img class="img-circle img-responsive" src="images/SkyeandNanaThisOne1.png"/>                  
+                        <p>                         
+                            <b>Skye Baptiste:</b> Skye is half of the fun-loving duo that is the Baptiste twins. She's most likely to make
+                            you a collage or video montage that you would adore. She a lover of puppies, kitties and unicorns,
+                            a derby girl, an artist and most importantly, my loveable and snarky little sister, my ride or die. 
+                        </p>
                     </div>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline first">                           
-                                    <b>Anais Baptiste:</b> Anais is the second half of the amazing Baptiste twins. To her family and close friends,
-                                    she's lovingly called Nana. She's the queen of Belgian waffle-making, a derby girl, a lover of 
-                                    design and most importantly my adorable and optimistic little sister, my ride or die. 
-                                </p>
-                            </div>
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline" src="images/NanaThisOne1.png"/>
-                            </div>  
-                        </div>
+                        <img class="img-circle img-responsive" src="images/NanaThisOne1.png"/>
+                        <p>                           
+                            <b>Anais Baptiste:</b> Anais is the second half of the amazing Baptiste twins. To her family and close friends,
+                            she's lovingly called Nana. She's the queen of Belgian waffle-making, a derby girl, a lover of 
+                            design and most importantly my adorable and optimistic little sister, my ride or die. 
+                        </p>
                     </div>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline first" src="images/MalloryThisOneFirst1.png"/>                     
-                            </div>
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline">                         
-                                    <b>Mallory Baxley:</b> After 10 years of friendship, I know Mallory is one of 
-                                    the sweetest people ever. She's also one of the funniest and most awkward and I
-                                    know we have many more years of laughter and adventure ahead of us. She a dancer and choreographer,
-                                    a woman filled with a quiet strength, a confidant and most importantly, a best friend. 
-                                </p>
-                            </div>
-                        </div>
+                        <img class="img-circle img-responsive" src="images/MalloryThisOneFirst1.png"/>                     
+                        <p>                         
+                            <b>Mallory Baxley:</b> After 10 years of friendship, I know Mallory is one of 
+                            the sweetest people ever. She's also one of the funniest and most awkward and I
+                            know we have many more years of laughter and adventure ahead of us. She a dancer and choreographer,
+                            a woman filled with a quiet strength, a confidant and most importantly, a best friend. 
+                        </p>
                     </div>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline first">                           
-                                    <b>Jennifer Therrien:</b> Jennifer is the girl I met in French class in college and just
-                                    knew we HAD to be friends. Turns out I was right. She has the biggest heart and cares 
-                                    and accepts so many. She's a sociologist, a lover of a certain little furry Man, a giver of 
-                                    handmade presents created with love and most importantly an amazing, life-long friend.                       
-                                </p>
-                            </div>                    
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline" src="images/JenniferThisOne1.png"/>
-                            </div>
-                        </div>
+                        <img class="img-circle img-responsive" src="images/JenniferThisOne1.png"/>
+                        <p>                           
+                            <b>Jennifer Therrien:</b> Jennifer is the girl I met in French class in college and just
+                            knew we HAD to be friends. Turns out I was right. She has the biggest heart and cares 
+                            and accepts so many. She's a sociologist, a lover of a certain little furry Man, a giver of 
+                            handmade presents created with love and most importantly an amazing, life-long friend.                       
+                        </p>
                     </div>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline first" src="images/ImaniThisOne1.png"/>                     
-                            </div>
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline">                         
-                                    <b>Imani Ellis:</b> Imani is the one I (quite literally) danced through high school with. We 
-                                    sang through hallways and played characters on stage. Imani is the friend that's always been 
-                                    there for me and no matter how long it's beens since we last spoke or saw each other, it's 
-                                    like no time has passed when we're together. She's a Southern girl with New York in her heart,
-                                    a fashion afficionado, a woman with more drive than you can imagine and most importantly an 
-                                    awesome, life-long friend. 
-                                </p>
-                            </div>
-                        </div>
+                        <img class="img-circle img-responsive" src="images/ImaniThisOne1.png"/>                     
+                        <p>                         
+                            <b>Imani Ellis:</b> Imani is the one I (quite literally) danced through high school with. We 
+                            sang through hallways and played characters on stage. Imani is the friend that's always been 
+                            there for me and no matter how long it's beens since we last spoke or saw each other, it's 
+                            like no time has passed when we're together. She's a Southern girl with New York in her heart,
+                            a fashion afficionado, a woman with more drive than you can imagine and most importantly an 
+                            awesome, life-long friend. 
+                        </p>
                     </div>
                 </div>
                 <div class="col-sm-5 col-sm-offset-1">
-                    <h3>Groomsmen</h3>
+                    <center><h3>Groomsmen</h3></center>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline first" src="images/PhilipThisOne1.png"/>                     
-                            </div>
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline">                         
-                                    <b>Philip Reaves:</b> Philip has been an influential part of my life from day 1. From asking our mother for a brother when he was young, 
-                                    driving me to school in middle school, to enveloping me with dance music in in our adult lives, I could not appreciate him more. Always planning
-                                    an adventure, his enthusiasm for life shows every day. On September 28th, 2014, Philip will be my <i>best man</i>.
-                                </p>
-                            </div>
-                        </div>
+                        <img class="img-circle img-responsive" src="images/PhilipThisOne1.png"/>                     
+                        <p>                         
+                            <b>Philip Reaves:</b> Philip has been an influential part of my life from day 1. From asking our mother for a brother when he was young, 
+                            driving me to school in middle school, to enveloping me with dance music in in our adult lives, I could not appreciate him more. Always planning
+                            an adventure, his enthusiasm for life shows every day. On September 28th, 2014, Philip will be my <i>best man</i>.
+                        </p>
                     </div>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline first">                           
-                                    <b>Darren Head:</b> Darren, a loving husband and father of two, sets the bar high for his life.
-                                    He takes care of his family and friends. He plays a major role in <a href="http://www.zacbrownband.com" target="_blank">one of the best selling country artists'</a> 
-                                    success each day. Yet despite his lack of me time, he always manages to have enough energy and liveliness 
-                                    to make everyone around him smile and laugh. Darren is one of my role models, and he should be one of yours too.
-                                </p>
-                            </div>
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline" src="images/DarrenThisOne1.png"/>
-                            </div>  
-                        </div>
+                        <img class="img-circle img-responsive" src="images/DarrenThisOne1.png"/>
+                        <p>                           
+                            <b>Darren Head:</b> Darren, a loving husband and father of two, sets the bar high for his life.
+                            He takes care of his family and friends. He plays a major role in <a href="http://www.zacbrownband.com" target="_blank">one of the best selling country artists'</a> 
+                            success each day. Yet despite his lack of me time, he always manages to have enough energy and liveliness 
+                            to make everyone around him smile and laugh. Darren is one of my role models, and he should be one of yours too.
+                        </p>
                     </div>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline first" src="images/GriffThisOne1.png"/>                     
-                            </div>
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline">                         
-                                    <b>Griff Fulton:</b> Griff and I first met online, deciding to meet when I was in Manhattan 
-                                    interviewing producer/DJ <a href="https://www.facebook.com/sebastienleger" target="_blank">Sebastien Leger</a>. I introduced Griff and his brother - <a href="http://www.youtube.com/watch?v=oXFHVIThTyc" target="_blank">who now DJs for a 
-                                        living across the world</a> - to their first live <a href="https://www.facebook.com/EricPrydzOfficial" target="_blank">Eric Prydz</a> experience, and we've been close friends ever since. 
-                                    Despite living 740 miles from each other, we rarely go a day without having a great conversation. Griff is one of 
-                                    the few people who lives and breathes dance music with me. I can't wait for you to meet him.
-                                    <br/><br/>
-                                    Oh - and our music for the occasion will be spun by Griff's brother <a href="https://www.facebook.com/PierceFulton" target="_blank">Pierce</a>. Join us on the dancefloor after the ceremony!
-                                </p>
-                            </div>
-                        </div>
+                        <img class="img-circle img-responsive" src="images/GriffThisOne1.png"/>                     
+                        <p>                         
+                            <b>Griff Fulton:</b> Griff and I first met online, deciding to meet when I was in Manhattan 
+                            interviewing producer/DJ <a href="https://www.facebook.com/sebastienleger" target="_blank">Sebastien Leger</a>. I introduced Griff and his brother - <a href="http://www.youtube.com/watch?v=oXFHVIThTyc" target="_blank">who now DJs for a 
+                                living across the world</a> - to their first live <a href="https://www.facebook.com/EricPrydzOfficial" target="_blank">Eric Prydz</a> experience, and we've been close friends ever since. 
+                            Despite living 740 miles from each other, we rarely go a day without having a great conversation. Griff is one of 
+                            the few people who lives and breathes dance music with me. I can't wait for you to meet him.
+                            <br/><br/>
+                            Oh - and our music for the occasion will be spun by Griff's brother <a href="https://www.facebook.com/PierceFulton" target="_blank">Pierce</a>. Join us on the dancefloor after the ceremony!
+                        </p>
                     </div>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline first">                           
-                                    <b>Tyler Reid:</b> Tyler and I have been nerding out for nearly two decades. From leading the free world playing Civilization
-                                    in 4th grade all the way to building enterprise web applications in our adult lives, Tyler and I have always teamed up 
-                                    using our intellect to get where we want to go in life. I'm very sure we will team up to build impactful very soon. After all,
-                                    Tyler has already <a href="http://www.tyler-reid.com/dataAnalysis.html" target="_blank">developed an algorithm that predicts hospital visits in an Oregon hospital</a>.
+                        <img class="img-circle img-responsive" src="images/TylerThisOne1.png"/>
+                        <p>                           
+                            <b>Tyler Reid:</b> Tyler and I have been nerding out for nearly two decades. From leading the free world playing Civilization
+                            in 4th grade all the way to building enterprise web applications in our adult lives, Tyler and I have always teamed up 
+                            using our intellect to get where we want to go in life. I'm very sure we will team up to build impactful very soon. After all,
+                            Tyler has already <a href="http://www.tyler-reid.com/dataAnalysis.html" target="_blank">developed an algorithm that predicts hospital visits in an Oregon hospital</a>.
 
-                                </p>
-                            </div>                    
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline" src="images/TylerThisOne1.png"/>
-                            </div>
-                        </div>
+                        </p>
                     </div>
                     <div class="lovedOne" class="container">
-                        <div class="row">
-                            <div class="col-xs-3">
-                                <img class="img-circle img-responsive bridalPartyInline first" src="images/KaanThisOne1.png"/>                     
-                            </div>
-                            <div class="col-xs-9">
-                                <p class="bridalPartyInline">                         
-                                    <b>Kaan Ural:</b> Kaan graced us with his charm when he moved from Turkey in middle school. Since then, he's lived life "70's big" 
-                                    and made sure we do the same too. Always providing comedic relief, Kaan is a friend no one feels uncomfortable around, and I'm sure 
-                                    everyone will be no match for his rugged good looks.
-                                </p>
-                            </div>
-                        </div>
+                        <img class="img-circle img-responsive" src="images/KaanThisOne1.png"/>                     
+                        <p>                         
+                            <b>Kaan Ural:</b> Kaan graced us with his charm when he moved from Turkey in middle school. Since then, he's lived life "70's big" 
+                            and made sure we do the same too. Always providing comedic relief, Kaan is a friend no one feels uncomfortable around, and I'm sure 
+                            everyone will be no match for his rugged good looks.
+                        </p>
                     </div>
                 </div>  
             </div>           

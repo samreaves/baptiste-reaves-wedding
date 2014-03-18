@@ -160,11 +160,15 @@ rsvpBorder {
 
 .lovedOne {
     display: block;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .lovedOne .first {
     margin-right: 2rem;
+}
+
+.lovedOne img {
+    margin: 0 auto;
 }
 hr {
     border-color:#474747;
