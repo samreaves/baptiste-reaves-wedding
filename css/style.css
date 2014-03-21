@@ -33,7 +33,6 @@ body {
 }
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #000;
-    //background-color: grey;
 }
 
 .icon-bar-workaround {
@@ -123,8 +122,8 @@ rsvpBorder {
     margin-bottom: 4rem;
 }
 
-#directions p {
-    margin-top: 1.5rem;
+#directions .maps {
+    margin-bottom: 2.5rem;
 }
 
 .blueLink, .blueLink2 {

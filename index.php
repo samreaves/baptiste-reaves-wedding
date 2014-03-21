@@ -6,7 +6,7 @@
 -->
 <html>
     <head>
-        <title>We're Getting Married</title>
+        <title>Baptiste-Reaves Wedding | September 28th, 2014</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +17,8 @@
         < !--[if lt IE 9] >
         <script src = "https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" ></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+        <script type='text/javascript' src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <![endif]-->
         <style>
             .col-md-9 {
@@ -204,163 +206,155 @@
                         </p>
                     </div>
                 </div>  
-            </div>           
-            <div id="photosBack">
-                <div id="photos" class="container topPadding">
-                    <h2 class="center header">Photos</h2>
-                    <ul class="rslides">
-                        <?php
-                        /* for ($i = 1; $i <= 120; $i++) {
-                          if ($i < 10) {
-                          echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam00" . $i . ".jpg\"\></li>";
-                          } else if ($i < 100) {
-                          echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam0" . $i . ".jpg\"\></li>";
-                          } else {
-                          echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam" . $i . ".jpg\"\></li>";
-                          }
-                          } */
-                        ?>
-                        <li>
-                            <img class="lazy" src="./images/photos/1.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/2.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/3.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/4.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/5.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/6.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/7.jpg"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/8.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/9.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/10.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/11.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/12.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/13.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/14.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/15.png"/>
-                        </li>
-                        <li>
-                            <img class="lazy" src="./images/photos/16.png"/>
-                        </li>
-                    </ul>        
+            </div>      
+        </div>
+        <div id="photosBack">
+            <div id="photos" class="container topPadding">
+                <h2 class="center header">Photos</h2>
+                <ul class="rslides">
+                    <?php
+                    /* for ($i = 1; $i <= 120; $i++) {
+                      if ($i < 10) {
+                      echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam00" . $i . ".jpg\"\></li>";
+                      } else if ($i < 100) {
+                      echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam0" . $i . ".jpg\"\></li>";
+                      } else {
+                      echo "<li><img class=\"lazy\" src=\"./images/photos/converted/brittsam" . $i . ".jpg\"\></li>";
+                      }
+                      } */
+                    ?>
+                    <li>
+                        <img class="lazy" src="./images/photos/1.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/2.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/3.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/4.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/5.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/6.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/7.jpg"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/8.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/9.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/10.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/11.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/12.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/13.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/14.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/15.png"/>
+                    </li>
+                    <li>
+                        <img class="lazy" src="./images/photos/16.png"/>
+                    </li>
+                </ul>        
+            </div>
+        </div>
+        <div id="directions" class="container topPadding">
+            <h2 class="center header">Directions</h2>
+            <div id="courthouse" class="row">            
+                <div class="col-xs-12">
+                    <div id="courthouse-map" class="maps"></div>
+                    <h3>Ceremony & Reception</h3>
+                    <p>
+                        We're getting married at a beautiful old courthouse located in Decatur, GA 
+                        -- Atlanta's peaceful and niche suburb to the East. In fact, the venue is 
+                        actually called The Old Courthouse on the Square. It was built in the 1800s
+                        and it's marble walls and big windows hold a piece of Georgia history. 
+                        If you need directions, click the "view in Google maps" link and select 
+                        "Directions" in the information box to the left. 
+                        <br/>
+                        <br/>
+                        <b>The wedding ceremony will begin at 6:30pm</b>, so be sure to get there before then!
+                        The cocktail hour and reception will both be held in the Old Courthouse as well,
+                        so get comfy and have some fun with us!
+                    </p>
                 </div>
             </div>
-            <div id="directions" class="container topPadding">
-                <hr/>
-                <h2 class="center header">Directions</h2>
-                <div id="courthouse" class="row">
-                    <!--                <div class="col-xs-12">
-                                        <h4 class="center">Our Venue</h4>
-                                         <center><iframe src="https://mapsengine.google.com/map/embed?mid=zVnRrsBSuH_c.kz6hePyLmMwc" width="480" height="480"></iframe></center>
-                    -->                    
-                    <div class="col-xs-12">
-                        <iframe id="venue" class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.4518693219457!2d-84.29631229999998!3d33.7748275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5073e75fc4bfd%3A0x63f5425ba2131ec0!2sDekalb+History+Center+Museum!5e0!3m2!1sen!2sus!4v1392493415013" draggable="0" frameborder="0" style="border:0"></iframe>
-                        <h3>Ceremony & Reception</h3>
-                        <p>
-                            We're getting married at a beautiful old courthouse located in Decatur, GA 
-                            -- Atlanta's peaceful and niche suburb to the East. In fact, the venue is 
-                            actually called The Old Courthouse on the Square. It was built in the 1800s
-                            and it's marble walls and big windows hold a piece of Georgia history. 
-                            If you need directions, click the "view in Google maps" link and select 
-                            "Directions" in the information box to the left. 
-                            <br/>
-                            <br/>
-                            <b>The wedding ceremony will begin at 6:30pm</b>, so be sure to get there before then!
-                            The cocktail hour and reception will both be held in the Old Courthouse as well,
-                            so get comfy and have some fun with us!
-                            <br/>
-                            <br/>
-                            If you're driving yourself to the Old Courthouse, you can either park at the current
-                            courthouse parking deck located at <b>[ADDRESS]</b> or you can find some street parking closeby
-                            (street parking is free on Sundays!).
-                        </p>
-                    </div>
-                    <!--
-                                         <div id="venueMap"></div> 
-                    
-                    
-                                    </div>-->
+            <div id="parking" class="row">
+                <div class="col-xs-12">
+                    <div id="parking-map" class="maps"></div>
+                    <!--                        <h3>Parking</h3>-->
+                    <p>
+                        If you're driving yourself to the Old Courthouse, you can either park at the current
+                        courthouse parking deck located at <b>300 W Trinity Pl Decatur, GA 30030</b> or you can find free street parking.
+                    </p>
                 </div>
-                <div id="courtyardDecatur" class="row">
-                    <div class="col-xs-12">
-
-                    </div>
-                    <!--                <div class="col-sm-6">
-                                        <h4 class="center">Courtyard Marriot</h4>
-                                        <div id="courtyardMap"></div> -->
-                    <iframe id="courtyard" class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6632.779382211738!2d-84.29722357857621!3d33.77643362072889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10bb615ab0d2dec5!2sCourtyard+Atlanta+Decatur+Downtown%2FEmory!5e0!3m2!1sen!2sus!4v1392493798318" draggable="0" frameborder="0" style="border:0"></iframe>
-                    <h3>Courtyard Marriott</h3>
+            </div>
+            <div id="courtyardDecatur" class="row">
+                <div class="col-xs-12">
+                    <div id="marriot-map" class="maps"></div>
+                    <!--<h3>Courtyard Marriott</h3>-->
                     <p>
                         The Courtyard Marriott is just down the block from the Old Courthouse 
                         (and that's a Georgia block, not a big Manhattan-sized one). To book a 
                         room here, please contact Marriott reservations at 1-888-236-2427 or contact 
                         the Hotel directly at 404-371-0204. Don't forget to mention you're booking for 
                         the Baptiste/Reaves Wedding and use the group code BRS.
+                        <a class="btn btn-info btn-lg" href="tel:+14043710204">Book your reservation</a>
                     </p>
                 </div>
-                <div id="wMidtown" class="row">
-                    <div class="col-xs-12">
-                        <iframe id="w" class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3315.991359400639!2d-84.38165004999999!3d33.7867213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f504440e448dcd%3A0x2cc2e6d6029cdccd!2sW+Atlanta+-+Midtown!5e0!3m2!1sen!2sus!4v1392493852640" draggable="0" frameborder="0" style="border:0"></iframe>
-                        <h3>W Atlanta Midtown</h3>
-                        <p>
-                            The W Midtown is located in the heart of Atlanta's Midtown area. If you decide to stay
-                            here, you'll definitely be a part of all the action! The W was sweet enough to create a
-                            personalized site just for our guests! To book a room at the W Midtown, please click
-                            <a target="_blank" href="https://www.starwoodmeeting.com/StarGroupsWeb/booking/reservation?id=1402076928&key=7EAE9" class="blueLink2">this link</a>. 
-                        </p>
-                    </div>
+            </div>
+            <div id="wMidtown" class="row">
+                <div class="col-xs-12">
+                    <div id="w-map" class="maps"></div>
+                    <!--<h3>W Atlanta Midtown</h3>-->
+                    <p>
+                        The W Midtown is located in the heart of Atlanta's Midtown area. If you decide to stay
+                        here, you'll definitely be a part of all the action! The W was sweet enough to create a
+                        personalized site just for our guests! To book a room at the W Midtown, please click.
+                    </p>
+                    <a target="_blank" href="https://www.starwoodmeeting.com/StarGroupsWeb/booking/reservation?id=1402076928&key=7EAE9" class="btn btn-info btn-lg">Book your reservation</a>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h3>Things to Do in Decatur</h3>
-                        <ul>
-                            <li><a class="blueLink2" target="_blank" href="http://www.eddiesattic.com">Eddie's Attic (where John Mayer got his start)</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://decaturfarmersmarket.com/wordpress/">Decatur Farmer's Market</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://www.vicsandwich.com">Victory Sandwich Bar</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://www.theiberianpigatl.com/index">The Iberian Pig</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://www.leonsfullservice.com">Leon's Full Service</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://www.decaturhotyoga.com">Decatur Yoga and Pilates</a></li>
-                            <li>For more information & ideas visit: <a class="blueLink2" target="_blank" href="http://www.decaturga.com">www.decaturga.com</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <h3>Things to Do in Midtown</h3>
-                        <ul>
-                            <li><a class="blueLink2" target="_blank" href="http://www.high.org">The High Museum of Art</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://www.piedmontpark.org">Piedmont Park</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://www.georgiaaquarium.org">Georgia Aquarium</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://ecco-atlanta.com">Ecco</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://steelatlanta.com">Steel</a></li>
-                            <li><a class="blueLink2" target="_blank" href="http://article14.com">Article 14</a></li>
-                            <li>For more information & ideas visit: <a class="blueLink2" target="_blank" href="http://www.midtownatl.com">www.midtownatl.com</a></li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Things to Do in Decatur</h3>
+                    <ul>
+                        <li><a class="blueLink2" target="_blank" href="http://www.eddiesattic.com">Eddie's Attic (where John Mayer got his start)</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://decaturfarmersmarket.com/wordpress/">Decatur Farmer's Market</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://www.vicsandwich.com">Victory Sandwich Bar</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://www.theiberianpigatl.com/index">The Iberian Pig</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://www.leonsfullservice.com">Leon's Full Service</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://www.decaturhotyoga.com">Decatur Yoga and Pilates</a></li>
+                        <li>For more information & ideas visit: <a class="blueLink2" target="_blank" href="http://www.decaturga.com">www.decaturga.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Things to Do in Midtown</h3>
+                    <ul>
+                        <li><a class="blueLink2" target="_blank" href="http://www.high.org">The High Museum of Art</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://www.piedmontpark.org">Piedmont Park</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://www.georgiaaquarium.org">Georgia Aquarium</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://ecco-atlanta.com">Ecco</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://steelatlanta.com">Steel</a></li>
+                        <li><a class="blueLink2" target="_blank" href="http://article14.com">Article 14</a></li>
+                        <li>For more information & ideas visit: <a class="blueLink2" target="_blank" href="http://www.midtownatl.com">www.midtownatl.com</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -402,6 +396,6 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/gallery/responsiveslides.min.js"></script>
     <script src="./js/wedding.js"></script>
-    <script type="text/javascript" src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="https://rawgithub.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js"></script>
 </body>
 </html>
