@@ -362,6 +362,7 @@
     <div id="RSVPBack">
         <div id="rsvp" class="container topPadding">
             <h2 class="center header">RSVP</h2>
+            <p>We will be calling everyone invited for their addresses soon! Invitations will be sent out on <b>[DATE]</b>. We can't wait to hear that you can join us!</p>
         </div>
     </div>
     <div id="ourRegistryBack">
