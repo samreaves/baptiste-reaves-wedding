@@ -53,7 +53,8 @@ function initializeMap(lat, long, content, title, divId) {
 
 
 $(function() {
-// Set up Old Courthouse On The Square map
+    
+    // Set up Old Courthouse On The Square map
     var courthouseContent = '<div id="content">' +
             '<div id="siteNotice">' +
             '</div>' +

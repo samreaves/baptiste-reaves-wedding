@@ -325,8 +325,8 @@
                     <!--<h3>W Atlanta Midtown</h3>-->
                     <p>
                         The W Midtown is located in the heart of Atlanta's Midtown area. If you decide to stay
-                        here, you'll definitely be a part of all the action! The W was sweet enough to create a
-                        personalized site just for our guests! To book a room at the W Midtown, please click.
+                        here, you'll definitely be a part of all the action! <br/><br/>
+                        Keep in mind however that the estimated cab fare to our venue is <a href="http://www.taxifarefinder.com/main.php?city=Atlanta&from=W+Atlanta+-+Midtown%2C+14th+Street+Northeast%2C+Atlanta%2C+GA%2C+United+States&to=Dekalb+History+Center+Museum%2C+Decatur%2C+GA%2C+United+States&fromCoord=33.786952,-84.38166100000001&toCoord=33.774828,-84.296312">around $22</a>.
                     </p>
                     <a target="_blank" href="https://www.starwoodmeeting.com/StarGroupsWeb/booking/reservation?id=1402076928&key=7EAE9" class="btn btn-info btn-lg">Book your reservation</a>
                 </div>
