@@ -301,7 +301,7 @@
                     <!--                        <h3>Parking</h3>-->
                     <p>
                         If you're driving yourself to the Old Courthouse, you can either park at the current
-                        courthouse parking deck located at <b>300 W Trinity Pl Decatur, GA 30030</b> or you can find free street parking.
+                        courthouse parking deck located at <a href="https://www.google.com/maps/place/300+W+Trinity+Pl/@33.7735728,-84.2990754,17z/data=!3m1!4b1!4m2!3m1!1s0x88f5073cff3157d3:0xdfb3e213f7788005">300 W Trinity Pl Decatur, GA 30030</a> or you can find free street parking.
                     </p>
                 </div>
             </div>
@@ -312,8 +312,8 @@
                     <p>
                         The Courtyard Marriott is just down the block from the Old Courthouse 
                         (and that's a Georgia block, not a big Manhattan-sized one). To book a 
-                        room here, please contact Marriott reservations at 1-888-236-2427 or contact 
-                        the Hotel directly at 404-371-0204. Don't forget to mention you're booking for 
+                        room here, please contact Marriott reservations at <a href="tel:+18882362427">1-888-236-2427</a> or contact 
+                        the Hotel directly at <a href="tel:+14043710204">404-371-0204</a>. Don't forget to mention you're booking for 
                         the Baptiste/Reaves Wedding and use the group code BRS.
                         <a class="btn btn-info btn-lg" href="tel:+14043710204">Book your reservation</a>
                     </p>
