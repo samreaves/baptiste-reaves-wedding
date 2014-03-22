@@ -201,3 +201,8 @@ hr {
     display: inline;
     margin-right: 4%;
 }
+
+
+#hotels a.btn.btn-info.btn-lg {
+    margin-top: 1.7rem;
+}

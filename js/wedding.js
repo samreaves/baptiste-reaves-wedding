@@ -45,7 +45,8 @@ function initializeMap(lat, long, content, title, divId) {
         position: new google.maps.LatLng(lat, long),
         map: map,
         title: title,
-        maxwidth: 300
+        maxwidth: 300,
+        maxheight: 120
     });
     infowindow.open(map, marker);
 }

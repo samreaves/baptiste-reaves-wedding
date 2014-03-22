@@ -277,7 +277,7 @@
         <div id="directions" class="container topPadding">
             <h2 class="center header">Directions</h2>
             <div id="courthouse" class="row">            
-                <div class="col-xs-12">
+                <div class="col-sm-6">
                     <div id="courthouse-map" class="maps"></div>
                     <h3>Ceremony & Reception</h3>
                     <p>
@@ -289,14 +289,12 @@
                         "Directions" in the information box to the left. 
                         <br/>
                         <br/>
-                        <b>The wedding ceremony will begin at 6:30pm</b>, so be sure to get there before then!
+                        <b>The wedding ceremony will begin at 6:00pm</b>, so be sure to get there before then!
                         The cocktail hour and reception will both be held in the Old Courthouse as well,
                         so get comfy and have some fun with us!
                     </p>
                 </div>
-            </div>
-            <div id="parking" class="row">
-                <div class="col-xs-12">
+                <div class="col-sm-6">
                     <div id="parking-map" class="maps"></div>
                     <!--                        <h3>Parking</h3>-->
                     <p>
@@ -305,8 +303,8 @@
                     </p>
                 </div>
             </div>
-            <div id="courtyardDecatur" class="row">
-                <div class="col-xs-12">
+            <div id="hotels" class="row">
+                <div class="col-sm-6">
                     <div id="marriot-map" class="maps"></div>
                     <!--<h3>Courtyard Marriott</h3>-->
                     <p>
@@ -315,20 +313,23 @@
                         room here, please contact Marriott reservations at <a href="tel:+18882362427">1-888-236-2427</a> or contact 
                         the Hotel directly at <a href="tel:+14043710204">404-371-0204</a>. Don't forget to mention you're booking for 
                         the Baptiste/Reaves Wedding and use the group code BRS.
-                        <a class="btn btn-info btn-lg" href="tel:+14043710204">Book your reservation</a>
                     </p>
+                    <center>
+                        <a class="btn btn-info btn-lg" href="tel:+14043710204">Book your reservation</a>
+                    </center>
+
                 </div>
-            </div>
-            <div id="wMidtown" class="row">
-                <div class="col-xs-12">
+                <div class="col-sm-6">
                     <div id="w-map" class="maps"></div>
                     <!--<h3>W Atlanta Midtown</h3>-->
                     <p>
                         The W Midtown is located in the heart of Atlanta's Midtown area. If you decide to stay
                         here, you'll definitely be a part of all the action! <br/><br/>
-                        Keep in mind however that the estimated cab fare to our venue is <a href="http://www.taxifarefinder.com/main.php?city=Atlanta&from=W+Atlanta+-+Midtown%2C+14th+Street+Northeast%2C+Atlanta%2C+GA%2C+United+States&to=Dekalb+History+Center+Museum%2C+Decatur%2C+GA%2C+United+States&fromCoord=33.786952,-84.38166100000001&toCoord=33.774828,-84.296312">around $22</a>.
+                        Keep in mind however that the estimated cab fare to our venue is <a target="_blank" href="http://www.taxifarefinder.com/main.php?city=Atlanta&from=W+Atlanta+-+Midtown%2C+14th+Street+Northeast%2C+Atlanta%2C+GA%2C+United+States&to=Dekalb+History+Center+Museum%2C+Decatur%2C+GA%2C+United+States&fromCoord=33.786952,-84.38166100000001&toCoord=33.774828,-84.296312">around $22</a>.
                     </p>
-                    <a target="_blank" href="https://www.starwoodmeeting.com/StarGroupsWeb/booking/reservation?id=1402076928&key=7EAE9" class="btn btn-info btn-lg">Book your reservation</a>
+                    <center>
+                        <a target="_blank" href="https://www.starwoodmeeting.com/StarGroupsWeb/booking/reservation?id=1402076928&key=7EAE9" class="btn btn-info btn-lg">Book your reservation</a>
+                    </center>
                 </div>
             </div>
             <div class="row">
@@ -362,8 +363,10 @@
     <div id="RSVPBack">
         <div id="rsvp" class="container topPadding">
             <h2 class="center header">RSVP</h2>
-            <p>We will be calling everyone invited for their addresses soon! Invitations will be sent out on <b>[DATE]</b>. We can't wait to hear that you can join us!</p>
-        </div>
+            <div id="Welcome" class="col-sm-8 col-sm-offset-2">
+                We will be calling invitees soon for addresses and sending invitations shortly after. We can't wait to share 
+                our special day with you all! - B + S
+            </div>        </div>
     </div>
     <div id="ourRegistryBack">
         <div id="registry" class="container topPadding">
