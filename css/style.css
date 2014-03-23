@@ -109,10 +109,6 @@ rsvpBorder {
     background: purple;
 }
 */
-#footerBack {
-    /*background: darkred;*/
-    padding-bottom: 8rem;
-}
 
 /*#directionsback {
     background: #ffd700;
@@ -205,4 +201,18 @@ hr {
 
 #hotels a.btn.btn-info.btn-lg {
     margin-top: 1.7rem;
+}
+
+#footerBack {
+    background-color: #0051ff;
+    margin-top: 7rem;
+}
+
+#footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#footer p {
+    color: #FFF;
 }
