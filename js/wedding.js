@@ -135,7 +135,7 @@ $(function() {
         auto: false,
         pager: true,
         nav: true,
-        speed: 500,
+        speed: 1500,
         maxwidth: 800,
         namespace: "centered-btns"
         
@@ -159,6 +159,7 @@ $(function() {
         after: function() {
         }   */  // Function: After callback
     });
+    
     ////////////////////////////////////////////////////
     // Change active tab when user scrolls to section //
     ////////////////////////////////////////////////////
