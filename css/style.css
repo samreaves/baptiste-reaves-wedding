@@ -11,9 +11,10 @@ body {
     font-family: 'Coustard', serif;
 }
 
-body h3 {
+a, p, h3 {
     font-family: 'Coustard', serif;
 }
+
 
 @font-face {
     font-family: lavanderia;
@@ -60,7 +61,7 @@ body h3 {
     text-align: center;
 }
 
-.header {
+.header, h2 {
     font-family: lavanderia;
     font-size: 5em;
     color: #0051ff;
@@ -72,9 +73,12 @@ body h3 {
 .maps {
     /*min-width: 20rem;*/
     min-width: 100%;
-    min-height: 30rem;
+    min-height: 45rem;
 }
 
+.firstHeading {
+    margin-top: 0;
+}
 
 #venueMap { 
     height: 40rem; 
